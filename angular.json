@@ -39,7 +39,7 @@
             ],
             "scripts": [
               "node_modules/chart.js/dist/Chart.js",
-  "node_modules/hammerjs/hammer.min.js"
+              "node_modules/hammerjs/hammer.min.js"
             ]
           },
           "configurations": {
@@ -131,8 +131,13 @@
               "devServerTarget": "CaptainWoodForce:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "CaptainWoodForce"
 }
